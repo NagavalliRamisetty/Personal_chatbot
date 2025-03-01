@@ -9,26 +9,27 @@ import numpy as np
 st.markdown("""
 <style>
     .stApp {
-        background: #f8f5e6;
-        background-image: radial-gradient(#d4d0c4 1px, transparent 1px);
-        background-size: 20px 20px;
+        background: #000000 !important; /* Set background to black */
     }
-    .chat-font {
-        font-family: 'Times New Roman', serif;
-        color: #000000;
+    body, h1, h2, h3, h4, h5, h6, p, span, div {
+        color: #ffffff !important; /* Set all text to white */
     }
     .user-msg {
-        background: #ffffff !important;
+        background: #222222 !important; /* Dark gray for contrast */
         border-radius: 15px !important;
-        border: 2px solid #2c5f2d !important;
+        border: 2px solid #ffffff !important;
+        color: #ffffff !important;
     }
     .bot-msg {
-        background: #fff9e6 !important;
+        background: #333333 !important; /* Slightly lighter gray */
         border-radius: 15px !important;
         border: 2px solid #ffd700 !important;
+        color: #ffffff !important;
     }
     .stChatInput {
-        background: #ffffff;
+        background: #222222 !important;
+        color: #ffffff !important;
+        border: 1px solid #ffffff !important;
     }
 </style>
 """, unsafe_allow_html=True)
