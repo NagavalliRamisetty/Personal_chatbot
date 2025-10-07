@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import google.generativeai as genai
 from sentence_transformers import SentenceTransformer
-import faiss
+import faiss_cpu as faiss
 import numpy as np
 
 # Custom CSS for styling
