@@ -1,5 +1,6 @@
+python_version == "3.10"
 streamlit==1.32.0
-pandas==2.1.4
+pandas==2.2.2
 google-generativeai==0.3.2
 sentence-transformers
 faiss-cpu==1.7.4
